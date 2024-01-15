@@ -7,6 +7,8 @@ See [@pdffiller/invite-teammates-modal/example](example/README.md)
 ### Reusable Module Interface
 See [@pdffiller/invite-teammates-modal/interface](interface/README.md)
 
+---
+
 # Invite Teammates Modal
 It is used to invite users to your organization via email or an invitation link.
 
@@ -26,6 +28,8 @@ Used:
 4. [Update version](#update_version)
 5. [Storybook](#storybook)
 
+---
+
 <a id="builds"></a>
 ## Builds
 | GitHub actions                                                                                                   | CP builds                                                                                                            |
@@ -37,6 +41,8 @@ Used:
 ```shell
 yarn run build
 ```
+
+---
 
 <a id="local_dev"></a>
 ## Starting local development
@@ -52,6 +58,8 @@ yarn start:all # Module + interface + example development
 
 Remember to set the `BACKEND=reg` parameter before starting the project, example:
 `BACKEND=reg yarn start`
+
+---
 
 <a id="params"></a>
 ## Params
@@ -86,16 +94,22 @@ export type Params = {
 };
 ```
 
+---
+
 <a id="update_version"></a>
 ## Update version
 ```shell
 npm version minor  # [major.minor.patch]
 ```
 
+---
+
 <a id="storybook"></a>
 ## Storybook
 ```shell
 yarn start:ui
 ```
+
+---
 
 [Top](#top)
