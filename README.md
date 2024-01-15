@@ -17,6 +17,8 @@ It is used to invite users to your organization via email or an invitation link.
 Used:
 - [/account/organization](https://reg.pdffillers.com/en/account/organization) (invite users)
 
+---
+
 ## Contents
 1. [Builds](#builds)
 2. [Starting local development](#local_dev)
